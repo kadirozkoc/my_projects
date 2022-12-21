@@ -1,0 +1,92 @@
+* {
+  /* resetleme */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url(https://pbs.twimg.com/media/DzC_k0KXcAAAxs5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh
+  
+}
+h1{
+  padding: 20px ;
+  margin: 0px 850px;
+  text-align:center ;
+  background-color: black;
+  color: azure;
+  display: inline-block;
+  border-radius: 35px;
+  border-style: groove;
+  border: rgb(6, 82, 6);
+  background-image: radial-gradient(green,rgb(20, 46, 2));
+  border-color: rgb(0, 0, 0);
+
+}
+
+form {
+  background-color: antiquewhite;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 30px;
+  background-image:linear-gradient(to right, rgb(238, 255, 0), rgba(69, 182, 69, 0.781), rgb(46, 139, 9));
+  border-radius: 30px;
+  
+}
+/** label inline elementtir. Dolayısıyla width property si dogrudan calismaz */
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+.lang-div,
+.gender-div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.lang-div label,
+.gender-div label {
+  width: auto;
+}
+.inputs{
+border-radius: 5px;
+width:300px;
+padding: 10px ;
+margin-bottom: 10px;
+border: 1px skyblue;
+}
+.radio-check{margin-bottom: 20px;
+}
+.buton_ctn{
+text-align: center;
+}
+  .buton_ctn input{
+width: 100px;
+border-radius: 10px;
+border: none;
+background-color: rgba(15, 56, 110, 0.384);
+padding: 10px;
+border-style: groove;
+
+  }
+  .buton_ctn input:hover{
+    background-color: rgb(187, 241, 179) ;
+    font-weight: 700;
+    cursor: pointer;
+    
+  }
+textarea{
+  vertical-align: middle;
+}
+
+
+
+
+
+
