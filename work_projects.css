@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+/* HEADER */
+/* ------------------------ */
+header {
+    background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+
+header a img{
+    width: 70px;
+    padding: 1rem;
+    
+}
+header .sign-in{
+    float: right;
+    color:#920101;
+    padding-top: 1.7rem;
+}
+header .sign-in a{
+    color: #920101;
+    text-decoration:none;
+    font-weight: 700;
+}
+header .sign-in a:hover{
+    border-bottom:2px solid #920101;
+}
+/* NAV STİCKY */
+/* --------------------------- */
+nav.sticky{
+    padding: 1rem;
+    background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+    position: sticky;
+    top: 0rem;
+    z-index: 1;
+
+}
+nav.sticky a {
+    font-family: 'DynaPuff', cursive;
+    text-decoration: none;
+    color: black;
+    margin-right: 0.8rem;
+}
+nav.sticky a:hover{
+    color: white;
+}
+
+/* NAV BANNER */
+/* ---------------------------- */
+
+nav.banner{
+    position: relative;
+
+}
+nav.banner img{
+    width: 100%;
+   max-height: calc(100vh - 146px);
+}
+nav.banner .hero{
+    position: absolute;
+    font-family:'DynaPuff', cursive ;
+    top: 40%;
+    left:10%;
+    color: #d9afd9;
+    
+}
+.button {
+    font-family:'DynaPuff', cursive ;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #d9afd9;
+    width: 100px;
+    height: 40px;
+}
+.button:hover{
+    color: #920101;
+    background-color: #fbda61;
+    
+}
+/* MAİN */
+/* ---------------- */
+.main{
+    padding: 2rem;
+    text-align: justify;
+}
+/* SLACK İCON */
+/* --------------------- */
+.slack{
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    background-color: #fbda61;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 0.16rem;
+}
+.slack:hover{
+    cursor: pointer;
+    outline: 2px solid #d9afd9;
+    outline-offset: 1px;
+    background-color: #ff5acd;
+}
+
+
